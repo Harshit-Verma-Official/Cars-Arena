@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/upcoming_car_height"
+    android:layout_margin="16dp"
+    android:background="@drawable/round_background_20dp"
+    android:backgroundTint="#1d242b"
+    android:clickable="true"
+    android:elevation="8dp"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/car_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Audi R8 Coupe"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/register_input_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/car_imageview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/car_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Audi"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/forgot_password_description_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/car_title"
+        app:layout_constraintStart_toStartOf="@+id/car_title"
+        app:layout_constraintTop_toBottomOf="@+id/car_title" />
+
+    <ImageView
+        android:id="@+id/brand_logo_imageView"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/details_btn"
+        app:layout_constraintStart_toStartOf="@+id/car_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/car_subtitle" />
+
+    <Button
+        android:id="@+id/details_btn"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/verify_btn_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Details"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/popularItemDetailsAndTakeALookBtnFontSize"
+        app:layout_constraintBottom_toBottomOf="@+id/car_imageview"
+        app:layout_constraintEnd_toStartOf="@+id/car_imageview"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/car_imageview"
+        android:layout_width="@dimen/upcoming_car_image_width"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

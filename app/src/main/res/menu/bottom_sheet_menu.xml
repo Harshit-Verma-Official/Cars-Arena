@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/res_4k"
+        android:icon="@drawable/ic_4k"
+        android:title="4K" />
+    <item
+        android:id="@+id/res_1080p"
+        android:icon="@drawable/ic_1080p"
+        android:title="1080p" />
+    <item
+        android:id="@+id/res_720p"
+        android:icon="@drawable/ic_720p"
+        android:title="720p" />
+    <item
+        android:id="@+id/res_480p"
+        android:icon="@drawable/ic_480p"
+        android:title="480p" />
+
+</menu>

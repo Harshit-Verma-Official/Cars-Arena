@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_background"
+    android:backgroundTint="#3C3C3C"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/car_imageView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/grid_item_image_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/car_brand_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Audi"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_imageView" />
+
+    <TextView
+        android:id="@+id/car_name_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/grid_item_car_margin"
+        android:layout_marginEnd="8dp"
+        android:text="Audi R8 Coupe"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/grid_item_car_name_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/brand_logo_imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_brand_textView" />
+
+    <ImageView
+        android:id="@+id/brand_logo_imageView"
+        android:layout_width="@dimen/popular_brand_logo_dimen"
+        android:layout_height="@dimen/popular_brand_logo_dimen"
+        android:layout_marginTop="@dimen/grid_item_car_margin"
+        android:layout_marginBottom="@dimen/grid_item_car_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/car_imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

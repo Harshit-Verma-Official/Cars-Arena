@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/viewpager_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:dotsColor="#ffffff"
+        app:dotsCornerRadius="10dp"
+        app:dotsSize="6dp"
+        app:dotsSpacing="4dp"
+        app:dotsStrokeWidth="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager"
+        app:selectedDotColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/car_name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text=" "
+        android:textColor="#ffffff"
+        android:textSize="@dimen/car_details_car_name_text_size"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewpager_indicator" />
+
+    <TextView
+        android:id="@+id/car_subtitle_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/car_details_subtitle_margin_right"
+        android:layout_marginBottom="8dp"
+        android:lineHeight="20dp"
+        android:textColor="#727272"
+        android:textSize="@dimen/grid_item_car_name_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/brand_logo_imageView"
+        app:layout_constraintStart_toStartOf="@+id/car_name_textView"
+        app:layout_constraintTop_toBottomOf="@+id/car_name_textView" />
+
+    <ImageView
+        android:id="@+id/brand_logo_imageView"
+        android:layout_width="@dimen/car_details_brand_logo_width"
+        android:layout_height="@dimen/car_details_brand_logo_height"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewpager_indicator" />
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/spark_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/viewPager"
+        app:layout_constraintEnd_toEndOf="@+id/viewPager"
+        app:sparkbutton_activeImage="@drawable/heart_active"
+        app:sparkbutton_animationSpeed="1.5"
+        app:sparkbutton_iconSize="24dp"
+        app:sparkbutton_primaryColor="@color/universal_parent_layout_color"
+        app:sparkbutton_secondaryColor="@color/universal_parent_layout_color"
+        app:sparkbutton_inActiveImage="@drawable/heart_inactive" />
+</androidx.constraintlayout.widget.ConstraintLayout>

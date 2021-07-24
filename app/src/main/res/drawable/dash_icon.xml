@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:viewportWidth="2088.927"
+    android:viewportHeight="627.547"
+    android:width="2088.927dp"
+    android:height="627.547dp">
+    <group
+        android:translateX="12385.62"
+        android:translateY="304.554">
+        <group
+            android:rotation="-24"
+            android:translateX="-12385.62"
+            android:translateY="7.819">
+            <path
+                android:pathData="M384 344.4518432617188L1.220218300819397 172.5L384 0.5481449365615845L766.77978515625 172.5L384 344.4518432617188Z"
+                android:fillColor="#CC0000" />
+            <path
+                android:pathData="M384 1.096282958984375L2.4404296875 172.5L384 343.9037170410156L765.5595703125 172.5L384 1.096282958984375M384 0L768 172.5L384 345L0 172.5L384 0Z"
+                android:fillColor="#707070" />
+        </group>
+        <group
+            android:rotation="-24"
+            android:translateX="-11772.62"
+            android:translateY="7.819">
+            <path
+                android:pathData="M384 344.4518432617188L1.220218300819397 172.5L384 0.5481449365615845L766.77978515625 172.5L384 344.4518432617188Z"
+                android:fillColor="#CC0000" />
+            <path
+                android:pathData="M384 1.096282958984375L2.4404296875 172.5L384 343.9037170410156L765.5595703125 172.5L384 1.096282958984375M384 0L768 172.5L384 345L0 172.5L384 0Z"
+                android:fillColor="#707070" />
+        </group>
+        <group
+            android:rotation="-24"
+            android:translateX="-11138.62"
+            android:translateY="7.819">
+            <path
+                android:pathData="M384 344.4518432617188L1.220218300819397 172.5L384 0.5481449365615845L766.77978515625 172.5L384 344.4518432617188Z"
+                android:fillColor="#CC0000" />
+            <path
+                android:pathData="M384 1.096282958984375L2.4404296875 172.5L384 343.9037170410156L765.5595703125 172.5L384 1.096282958984375M384 0L768 172.5L384 345L0 172.5L384 0Z"
+                android:fillColor="#707070" />
+        </group>
+    </group>
+</vector>

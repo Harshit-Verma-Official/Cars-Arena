@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Popular Car-->
+    <dimen name="popularItemWidth">180dp</dimen>
+    <dimen name="popularItemHeight">280dp</dimen>
+    <dimen name="popularTakeALookBtnLeftMargin">24dp</dimen>
+    <dimen name="popularItemDetailsAndTakeALookBtnFontSize">12sp</dimen>
+    <dimen name="popularImageWidth">199dp</dimen>
+    <dimen name="popularImageHeight">122dp</dimen>
+    <dimen name="popular_brand_logo_dimen">35dp</dimen>
+    <dimen name="popular_car_name_text_size">20sp</dimen>
+    <!--    Popular Car-->
+
+    <!--    Car Details Activity-->
+    <dimen name="car_details_car_name_text_size">21sp</dimen>
+    <dimen name="car_details_brand_logo_width">75dp</dimen>
+    <dimen name="car_details_brand_logo_height">45dp</dimen>
+    <dimen name="car_details_subtitle_margin_right">14dp</dimen>
+    <!--    Car Details Activity-->
+
+    <!--    Grid Item-->
+    <dimen name="grid_item_car_name_text_size">13sp</dimen>
+    <dimen name="grid_item_car_margin">6dp</dimen>
+    <dimen name="grid_item_image_height">145dp</dimen>
+    <!--    Grid Item-->
+
+    <!--    New Car Mini Item-->
+    <dimen name="new_car_mini_image_width">140dp</dimen>
+    <dimen name="new_car_mini_image_height">90dp</dimen>
+    <dimen name="new_car_mini_name_text_size">15sp</dimen>
+    <dimen name="new_car_mini_description_text_size">12sp</dimen>
+    <!--    New Car Mini Item-->
+
+    <!--    My Account-->
+    <dimen name="anim_height">350dp</dimen>
+    <dimen name="anim_margin_top">-80dp</dimen>
+    <!--    My Account-->
+
+    <!--    Up Coming Car-->
+    <dimen name="upcoming_car_height">180dp</dimen>
+    <dimen name="upcoming_car_image_width">175dp</dimen>
+    <!--    Up Coming Car-->
+
+    <!--    New Car Item-->
+    <dimen name="new_car_item_height">170dp</dimen>
+    <dimen name="new_car_brand_logo_width">48dp</dimen>
+    <dimen name="new_car_brand_logo_height">33dp</dimen>
+    <!--    New Car Item-->
+
+    <!--    Brand Item-->
+    <dimen name="brand_back_image_height">185dp</dimen>
+    <dimen name="brand_name_text_size">16sp</dimen>
+    <dimen name="brand_item_logo_dimen">55dp</dimen>
+    <!--    Brand Item-->
+
+    <dimen name="brand_image_height">60dp</dimen>
+    <dimen name="brand_image_width">60dp</dimen>
+
+    <dimen name="car_type_image_width">144dp</dimen>
+    <dimen name="car_type_image_height">67dp</dimen>
+
+    <dimen name="home_page_heading_size">20sp</dimen>
+
+    <dimen name="explore_recyclerView_height">150dp</dimen>
+    <dimen name="popular_recyclerView_height">320dp</dimen>
+    <dimen name="upcoming_recyclerView_height">350dp</dimen>
+
+    <dimen name="walkthrough_app_anim_height">180dp</dimen>
+    <dimen name="walkthrough_app_name_size">36sp</dimen>
+    <dimen name="walkthrough_description_size">22sp</dimen>
+    <dimen name="walkthrough_button_text_size">18sp</dimen>
+    <dimen name="walkthrough_bottom_margin">50dp</dimen>
+    <dimen name="walkthrough_login_btn_bottom_margin">50dp</dimen>
+
+    <dimen name="register_input_text_input_field_height">45dp</dimen>
+    <dimen name="register_input_text_size">19sp</dimen>
+    <dimen name="forgot_password_text_size">15sp</dimen>
+
+    <dimen name="go_back_icon_dimen">25dp</dimen>
+    <dimen name="go_back_text_size">16sp</dimen>
+    <dimen name="forgot_password_image_height">213dp</dimen>
+
+    <dimen name="forgot_password_title_text_size">26sp</dimen>
+    <dimen name="forgot_password_description_text_size">15sp</dimen>
+    <dimen name="dont_worry_text_size">22sp</dimen>
+
+    <dimen name="home_fragment_section_margin">4dp</dimen>
+
+    <dimen name="explore_car_item_width">120dp</dimen>
+    <dimen name="explore_car_item_height">70dp</dimen>
+    <dimen name="explore_car_item_text_size">15sp</dimen>
+
+    <string name="density_bucket">xxhdpi</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "65125700011",
+    "firebase_url": "https://autocrew-8d15e.firebaseio.com",
+    "project_id": "autocrew-8d15e",
+    "storage_bucket": "autocrew-8d15e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65125700011:android:315cff0a666abd254f82ee",
+        "android_client_info": {
+          "package_name": "autocrew.akd.enterntainment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65125700011-capk3firkhtmfqb1m9vbf2h2vlcce5ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "autocrew.akd.enterntainment",
+            "certificate_hash": "6c036efb9fa0ba0d4f000e646c06eca776dea0e0"
+          }
+        },
+        {
+          "client_id": "65125700011-nhkvqn50canfjk4hm7j68d1o560kqa5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbDbnbl6whBsv0mLcqNqh45VJjGmp7KN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65125700011-nhkvqn50canfjk4hm7j68d1o560kqa5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

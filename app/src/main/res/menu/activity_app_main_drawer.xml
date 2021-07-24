@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_brands"
+            android:icon="@drawable/ic_brands"
+            android:title="Brands" />
+        <item
+            android:id="@+id/nav_collections"
+            android:icon="@drawable/ic_collection"
+            android:title="Collection" />
+        <item
+            android:id="@+id/nav_new_cars"
+            android:icon="@drawable/ic_new_cars"
+            android:title="New Cars" />
+        <item
+            android:id="@+id/nav_upcoming"
+            android:icon="@drawable/ic_up_coming"
+            android:title="Up Coming" />
+        <item
+            android:id="@+id/nav_wallpaper"
+            android:icon="@drawable/ic_arena_showcase"
+            android:title="Arena Showcase" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/ic_wishlist"
+            android:title="Wishlist" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/ic_account"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_logout"
+            android:title="Sign out" />
+    </group>
+
+
+</menu>

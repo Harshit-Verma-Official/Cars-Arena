@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/nav_brands"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Brands" />
+    <item
+        android:id="@+id/nav_collections"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Collection" />
+    <item
+        android:id="@+id/nav_new_cars"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="New Cars" />
+    <item
+        android:id="@+id/nav_upcoming"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Up Coming" />
+
+</menu>

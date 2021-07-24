@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".WalkThroughFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/car_icon_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/walkthrough_app_anim_height"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="walkthrough_anim.json"
+                app:lottie_loop="true" />
+
+            <TextView
+                android:id="@+id/appNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="Cars Arena"
+                android:textColor="#3E476A"
+                android:textSize="@dimen/walkthrough_app_name_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/app_description_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="@dimen/walkthrough_login_btn_bottom_margin"
+                android:lineHeight="32sp"
+                android:layout_marginEnd="32dp"
+                android:text="Discover Car Specifications at your Fingertips"
+                android:textAlignment="center"
+                android:textColor="#878FAD"
+                android:textSize="@dimen/walkthrough_description_size" />
+
+            <Button
+                android:id="@+id/signup_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/register_input_text_input_field_height"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/login_btn_background"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/walkthrough_button_text_size" />
+
+            <Button
+                android:id="@+id/login_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/register_input_text_input_field_height"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="@dimen/walkthrough_login_btn_bottom_margin"
+                android:background="@drawable/border_background"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textColor="#3D8BF2"
+                android:textSize="@dimen/walkthrough_button_text_size" />
+
+            <TextView
+                android:id="@+id/skip_textview_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="@dimen/walkthrough_bottom_margin"
+                android:text="Skip for now"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#3D8BF2"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

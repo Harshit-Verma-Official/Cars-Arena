@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="mdtp_accent_color">#009688</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+
+    <color name="heading_color">#ffffff</color>
+    <color name="background">#0C0C0C</color>
+
+    <color name="universal_parent_layout_color">#0E0E0E</color>
+
+    <color name="toolbar_color">#000000</color>
+
+    <color name="navigation_panel_header_color">#000000</color>
+
+    <color name="alert_btn_color">#3C67F3</color>
+    <color name="blue_btn_bg_color">#1976D2</color>
+    <color name="blue_btn_bg_pressed_color">#1565C0</color>
+</resources>
